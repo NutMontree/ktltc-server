@@ -1,7 +1,6 @@
 import React from "react";
 import UserCard from "../(components)/UserCard";
 import { faHome, faTicket } from "@fortawesome/free-solid-svg-icons";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import Link from "next/link";
 
 const getUsers = async () => {
@@ -38,10 +37,10 @@ const User = async () => {
       <nav className="flex justify-between bg-nav p-4">
         <div className="flex items-center space-x-4">
           <Link href="/">
-            <FontAwesomeIcon icon={faHome} className="icon" />
+            <div icon={faHome} className="icon" />
           </Link>
           <Link href="/UserPage/new">
-            <FontAwesomeIcon icon={faTicket} className="icon" />
+            <div icon={faTicket} className="icon" />
           </Link>
         </div>
         <div>
