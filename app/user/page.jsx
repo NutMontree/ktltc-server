@@ -37,10 +37,14 @@ const User = async () => {
       <nav className="flex justify-between bg-nav p-4">
         <div className="flex items-center space-x-4">
           <Link href="/">
-            <div icon={faHome} className="icon" />
+            <div icon={faHome} className="icon">
+              Home
+            </div>
           </Link>
           <Link href="/UserPage/new">
-            <div icon={faTicket} className="icon" />
+            <div icon={faTicket} className="icon">
+              เพิ่มข้อมูล
+            </div>
           </Link>
         </div>
         <div>
