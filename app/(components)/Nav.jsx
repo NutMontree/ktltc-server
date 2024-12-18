@@ -3,16 +3,9 @@ import Link from "next/link";
 const Nav = () => {
   return (
     <>
-      <div className="flex items-center space-x-4">
+      <div className="">
         <Link href="/">
-          <div  className="icon">
-            Home
-          </div>
-        </Link>
-        <Link href="/UserPage/new">
-          <div  className="icon">
-            เพิ่มข้อมูล
-          </div>
+          <div className="text-center truncate  px-4 py-4 text-lg">Home</div>
         </Link>
       </div>
     </>
