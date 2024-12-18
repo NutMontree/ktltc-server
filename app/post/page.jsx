@@ -5,7 +5,7 @@ import Link from "next/link";
 
 const getTickets = async () => {
   try {
-    const res = await fetch("https://ktltcp.vercel.app/api/Tickets", {
+    const res = await fetch("https://ktltcs.vercel.app/api/Tickets", {
       cache: "no-store",
     });
 

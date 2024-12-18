@@ -14,7 +14,7 @@ pnpm dev
 bun dev
 ```
 
-Open [https://ktltcp.vercel.app](https://ktltcp.vercel.app) with your browser to see the result.
+Open [https://ktltcs.vercel.app](https://ktltcs.vercel.app) with your browser to see the result.
 
 You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
 
@@ -35,5 +35,5 @@ The easiest way to deploy your Next.js app is to use the [Vercel Platform](https
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
 "# ktltc-post"
-"# ktltc-server" 
-"# ktltc-server" 
+"# ktltc-server"
+"# ktltc-server"

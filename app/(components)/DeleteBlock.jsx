@@ -7,7 +7,7 @@ const DeleteBlock = ({ id }) => {
   const router = useRouter();
 
   const deleteTicket = async () => {
-    const res = await fetch(`https://ktltcp.vercel.app/api/Tickets/${id}`, {
+    const res = await fetch(`https://ktltcs.vercel.app/api/Tickets/${id}`, {
       method: "DELETE",
     });
     if (res.ok) {
